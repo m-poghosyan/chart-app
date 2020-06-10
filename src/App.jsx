@@ -5,6 +5,7 @@ import "./App.scss";
 
 const App = () => {
   const [currentTab, setCurrentTab] = useState(1);
+
   return (
     <div className="appContainer">
       <Tabs currentTab={currentTab} setCurrentTab={setCurrentTab} />
