@@ -1,0 +1,12 @@
+.tabButton {
+  height: 50px;
+  font-size: 22px;
+  color: #75ca4e;
+  font-weight: 700;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  &.active {
+    background-color: #dfeafd;
+  }
+}
